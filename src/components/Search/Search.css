@@ -1,0 +1,25 @@
+.search-container{
+    background-color: #fff;
+    display: flex;
+    height: 5em;
+    align-items:center;
+    justify-content: center;
+}
+.search-container form{
+width: 90vw;
+max-width: 1120px;
+display: flex;
+gap: 0.7em;
+flex-wrap: wrap;
+justify-content: center;
+}
+.search-container .input{
+    max-width: 200px;
+    padding: 0.75em 0.75em;
+    border-radius: 0.50em;
+    border: 1px solid #e2e8f0;
+    background-color: #f1f5f9;
+}
+.search-container .btn{
+    font-size: 0.85rem;
+}

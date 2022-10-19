@@ -1,0 +1,42 @@
+.favourites{
+    background-color: #000;
+    color: #fff;
+    padding: 1em 0;
+}
+.favourites-content{
+    width : 90vw;
+    max-width : 1120px;
+    margin: 0 auto;
+}
+.favourites-content h3{
+    font-size: 1.5rem;
+}
+.favourites-container{
+    display: flex;
+    gap:1.2em;
+    flex-wrap: wrap;
+}
+.favourite-item{
+    text-align: center;
+}
+.favourites-img{
+    width: 100px !important;
+    border: 5px solid white;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.remove-btn{
+    margin-top: 1em;
+    background-color: transparent;
+    color: #fff;
+    border: transparent;
+    font-size: 0.9em;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s ease-in-out all;
+}
+.remove-btn:hover{
+color: #000;
+background-color: #fff;
+padding: 0.3em 0.5em;
+}
